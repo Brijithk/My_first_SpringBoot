@@ -1,0 +1,12 @@
+Uncommenting the dependency
+----------------------------
+
+
+step 1:Reload Maven project: After making changes to pom.xml,
+        reload the Maven project in your IDE (usually, a right-click on the project
+          and selecting "Maven -> Reload project"). 
+
+step 2:Rebuild your project: Run mvn clean install to ensure everything compiles successfully.
+
+step 3:Run your Spring Boot application: Once the dependency is available,
+          your application should start correctly and serve web content.
